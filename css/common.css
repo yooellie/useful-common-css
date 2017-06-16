@@ -94,3 +94,30 @@ button {
     color: #3b98e0;
     border: 1px solid currentColor;
 }
+/*多图全屏滚动效果 原文https://github.com/sorrycc/blog/issues/14*/
+section {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+	background-image: url('https://unsplash.it/1024/683?image=1068');
+}
+section:nth-of-type(2) {
+	background-image: url('https://unsplash.it/1024/683?image=1073');
+}
+section:nth-of-type(3) {
+	background-image: url('https://unsplash.it/1024/683?image=1047');
+}
+p {
+	color: #fff;
+	font-size: 100px;
+	font-family: monospace;
+}
