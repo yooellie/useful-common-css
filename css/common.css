@@ -96,7 +96,7 @@ button {
     border: 1px solid currentColor;
 }
 
-/*多图全屏滚动效果 原文https://github.com/sorrycc/blog/issues/14*/
+/* 多图全屏滚动效果 原文https://github.com/sorrycc/blog/issues/14    demo: https://jsfiddle.net/0xjgxmgw/ */
 section {
     width: 100vw;
     height: 100vh;
