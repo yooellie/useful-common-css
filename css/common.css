@@ -124,3 +124,6 @@ p {
 }
 /*改变html 鼠标样式 url为光标文件地址 文件格式必须为：.cur 或 .ani*/
 cursor: url(url);
+
+/* 改变手机端html头部导航条颜色 */
+<meta name="theme-color" content="#fff">
